@@ -1,130 +1,266 @@
-{
-  "data": {
-    "groupById": {
-      "id": "4f3ac2a8-b6d8-11ed-b9df-0242ac120003",
-      "name": "Test Group",
-      "memberships": [
-        {
-          "user": {
-            "id": "4f3ac678-b6d8-11ed-b9df-0242ac120003",
-            "fullname": "Jane Doe",
-            "classifications": [
-              {
-                "level": {
-                  "id": "6f4a928e-b6d8-11ed-b9df-0242ac110002",
-                  "name": "A"
-                },
-                "id": "9a4d9b20-b6d8-11ed-b9df-0242ac110002",
-                "order": 1,
-                "semester": {
-                  "id": "9a4d9b21-b6d8-11ed-b9df-0242ac110002",
-                  "order": 2,
-                  "subject": {
-                    "id": "9a4d9b22-b6d8-11ed-b9df-0242ac110002",
-                    "name": "Informatika"
-                  }
-                }
-              },
-              {
-                "level": {
-                  "id": "6f4a93e0-b6d8-11ed-b9df-0242ac110002",
-                  "name": "B"
-                },
-                "id": "9a4d9b23-b6d8-11ed-b9df-0242ac110002",
-                "order": 2,
-                "semester": {
-                  "id": "9a4d9b24-b6d8-11ed-b9df-0242ac110002",
-                  "order": 2,
-                  "subject": {
-                    "id": "9a4d9b25-b6d8-11ed-b9df-0242ac110002",
-                    "name": "Kyberneticka bezpecnost"
-                  }
-                }
-              }
-            ]
-          }
-        },
-        {
-          "user": {
-            "id": "5g4bc789-c7e9-11ed-b9df-0242ac120003",
-            "fullname": "John Smith",
-            "classifications": [
-              {
-                "level": {
-                  "id": "7g5b038e-c7e9-11ed-b9df-0242ac110002",
-                  "name": "B"
-                },
-                "id": "8g5b238f-c7e9-11ed-b9df-0242ac110002",
-                "order": 1,
-                "semester": {
-                  "id": "8g5b2390-c7e9-11ed-b9df-0242ac110002",
-                  "order": 1,
-                  "subject": {
-                    "id": "8g5b2391-c7e9-11ed-b9df-0242ac110002",
-                    "name": "Programovani"
-                  }
-                }
-              },
-              {
-                "level": {
-                  "id": "7g5b048f-c7e9-11ed-b9df-0242ac110002",
-                  "name": "C"
-                },
-                "id": "8g5b2490-c7e9-11ed-b9df-0242ac110002",
-                "order": 2,
-                "semester": {
-                  "id": "8g5b2491-c7e9-11ed-b9df-0242ac110002",
-                  "order": 1,
-                  "subject": {
-                    "id": "8g5b2492-c7e9-11ed-b9df-0242ac110002",
-                    "name": "Fyzika"
-                  }
-                }
-              }
-            ]
-          }
-        },
-        {
-          "user": {
-            "id": "6h5cd89a-d8fa-11ed-b9df-0242ac120003",
-            "fullname": "Emily Brown",
-            "classifications": [
-              {
-                "level": {
-                  "id": "8h6c048f-d8fa-11ed-b9df-0242ac110002",
-                  "name": "C"
-                },
-                "id": "9h6c2590-d8fa-11ed-b9df-0242ac110002",
-                "order": 1,
-                "semester": {
-                  "id": "9h6c2591-d8fa-11ed-b9df-0242ac110002",
-                  "order": 3,
-                  "subject": {
-                    "id": "9h6c2592-d8fa-11ed-b9df-0242ac110002",
-                    "name": "Informatika"
-                  }
-                }
-              },
-              {
-                "level": {
-                  "id": "8h6c0590-d8fa-11ed-b9df-0242ac110002",
-                  "name": "D"
-                },
-                "id": "9h6c2691-d8fa-11ed-b9df-0242ac110002",
-                "order": 2,
-                "semester": {
-                  "id": "9h6c2692-d8fa-11ed-b9df-0242ac110002",
-                  "order": 3,
-                  "subject": {
-                    "id": "9h6c2693-d8fa-11ed-b9df-0242ac110002",
-                    "name": "Kyberneticka bezpecnost"
-                  }
-                }
-              }
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
+[
+    {
+        "user_fullname": "John Newbie",
+        "user_id": "2d9dc5ca-a4a2-11ed-b9df-0242ac120003",
+        "level_id": "5faea21a-b095-11ed-9bd8-0242ac110002",
+        "level_name": "A",
+        "level_order": 1,
+        "subject_id": "ce250a68-b095-11ed-9bd8-0242ac110002",
+        "subject_name": "Programování",
+        "semester_id": "ce250af4-b095-11ed-9bd8-0242ac110002",
+        "semester_order": 1
+    },
+    {
+        "user_fullname": "Alice Developer",
+        "user_id": "3e8dc5da-b4b2-11ed-b9df-0242ac120004",
+        "level_id": "5faea21b-b095-11ed-9bd8-0242ac110003",
+        "level_name": "B",
+        "level_order": 2,
+        "subject_id": "ce250a69-b095-11ed-9bd8-0242ac110003",
+        "subject_name": "Informatika",
+        "semester_id": "ce250af5-b095-11ed-9bd8-0242ac110003",
+        "semester_order": 1
+    },
+    {
+        "user_fullname": "Bob Hacker",
+        "user_id": "4f9dc5ea-c5c2-11ed-b9df-0242ac120005",
+        "level_id": "5faea21c-b095-11ed-9bd8-0242ac110004",
+        "level_name": "C",
+        "level_order": 3,
+        "subject_id": "ce250a6a-b095-11ed-9bd8-0242ac110004",
+        "subject_name": "Kybernetická bezpečnost",
+        "semester_id": "ce250af6-b095-11ed-9bd8-0242ac110004",
+        "semester_order": 1
+    },
+    {
+        "user_fullname": "Charlie Coder",
+        "user_id": "5fad9c6a-d6d2-11ed-b9df-0242ac120006",
+        "level_id": "5faea21d-b095-11ed-9bd8-0242ac110005",
+        "level_name": "D",
+        "level_order": 1,
+        "subject_id": "ce250a6b-b095-11ed-9bd8-0242ac110005",
+        "subject_name": "Programování",
+        "semester_id": "ce250af7-b095-11ed-9bd8-0242ac110005",
+        "semester_order": 1
+    },
+    {
+        "user_fullname": "Diana Security",
+        "user_id": "6fada56a-e7e2-11ed-b9df-0242ac120007",
+        "level_id": "5faea21e-b095-11ed-9bd8-0242ac110006",
+        "level_name": "E",
+        "level_order": 2,
+        "subject_id": "ce250a6c-b095-11ed-9bd8-0242ac110006",
+        "subject_name": "Informatika",
+        "semester_id": "ce250af8-b095-11ed-9bd8-0242ac110006",
+        "semester_order": 1
+    },
+    {
+        "user_fullname": "Eve Analyst",
+        "user_id": "7fbad67a-f8f2-11ed-b9df-0242ac120008",
+        "level_id": "5faea21f-b095-11ed-9bd8-0242ac110007",
+        "level_name": "F",
+        "level_order": 3,
+        "subject_id": "ce250a6d-b095-11ed-9bd8-0242ac110007",
+        "subject_name": "Kybernetická bezpečnost",
+        "semester_id": "ce250af9-b095-11ed-9bd8-0242ac110007",
+        "semester_order": 1
+    },
+    {
+        "user_fullname": "Frank Tester",
+        "user_id": "8fcae78a-09a2-11ee-b9df-0242ac120009",
+        "level_id": "5faea220-b095-11ed-9bd8-0242ac110008",
+        "level_name": "A",
+        "level_order": 3,
+        "subject_id": "ce250a6e-b095-11ed-9bd8-0242ac110008",
+        "subject_name": "Programování",
+        "semester_id": "ce250afa-b095-11ed-9bd8-0242ac110008",
+        "semester_order": 1
+    },
+    {
+        "user_fullname": "Grace Engineer",
+        "user_id": "9fdae89a-1ab2-11ee-b9df-0242ac12000a",
+        "level_id": "5faea221-b095-11ed-9bd8-0242ac110009",
+        "level_name": "B",
+        "level_order": 1,
+        "subject_id": "ce250a6f-b095-11ed-9bd8-0242ac110009",
+        "subject_name": "Informatika",
+        "semester_id": "ce250afb-b095-11ed-9bd8-0242ac110009",
+        "semester_order": 1
+    },
+    {
+        "user_fullname": "Hank Operator",
+        "user_id": "afbaf99a-2bc2-11ee-b9df-0242ac12000b",
+        "level_id": "5faea222-b095-11ed-9bd8-0242ac11000a",
+        "level_name": "C",
+        "level_order": 2,
+        "subject_id": "ce250a70-b095-11ed-9bd8-0242ac11000a",
+        "subject_name": "Kybernetická bezpečnost",
+        "semester_id": "ce250afc-b095-11ed-9bd8-0242ac11000a",
+        "semester_order": 1
+    },
+    {
+        "user_fullname": "Ivy Manager",
+        "user_id": "bfbbfaa0-3cd2-11ee-b9df-0242ac12000c",
+        "level_id": "5faea223-b095-11ed-9bd8-0242ac11000b",
+        "level_name": "D",
+        "level_order": 3,
+        "subject_id": "ce250a71-b095-11ed-9bd8-0242ac11000b",
+        "subject_name": "Programování",
+        "semester_id": "ce250afd-b095-11ed-9bd8-0242ac11000b",
+        "semester_order": 1
+    },
+	{
+		"user_fullname": "Oliver Learner",
+		"user_id": "7abca73a-2e22-11ee-b9df-0242ac12000d",
+		"level_id": "5faea224-b095-11ed-9bd8-0242ac11000c",
+		"level_name": "E",
+		"level_order": 2,
+		"subject_id": "ce250a72-b095-11ed-9bd8-0242ac11000c",
+		"subject_name": "Programování",
+		"semester_id": "ce250afe-b095-11ed-9bd8-0242ac11000c",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Nora Programmer",
+		"user_id": "8bcdab4a-3f32-11ee-b9df-0242ac12000e",
+		"level_id": "5faea225-b095-11ed-9bd8-0242ac11000d",
+		"level_name": "B",
+		"level_order": 1,
+		"subject_id": "ce250a73-b095-11ed-9bd8-0242ac11000d",
+		"subject_name": "Informatika",
+		"semester_id": "ce250aff-b095-11ed-9bd8-0242ac11000d",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Maxine Developer",
+		"user_id": "9cdebc5a-4a42-11ee-b9df-0242ac12000f",
+		"level_id": "5faea226-b095-11ed-9bd8-0242ac11000e",
+		"level_name": "C",
+		"level_order": 3,
+		"subject_id": "ce250a74-b095-11ed-9bd8-0242ac11000e",
+		"subject_name": "Kybernetická bezpečnost",
+		"semester_id": "ce250b00-b095-11ed-9bd8-0242ac11000e",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Quincy Analyst",
+		"user_id": "acdeb86a-5e52-11ee-b9df-0242ac120010",
+		"level_id": "5faea227-b095-11ed-9bd8-0242ac11000f",
+		"level_name": "D",
+		"level_order": 2,
+		"subject_id": "ce250a75-b095-11ed-9bd8-0242ac11000f",
+		"subject_name": "Programování",
+		"semester_id": "ce250b01-b095-11ed-9bd8-0242ac11000f",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Sophia Security",
+		"user_id": "bcfedc7a-6f62-11ee-b9df-0242ac120011",
+		"level_id": "5faea228-b095-11ed-9bd8-0242ac110010",
+		"level_name": "A",
+		"level_order": 1,
+		"subject_id": "ce250a76-b095-11ed-9bd8-0242ac110010",
+		"subject_name": "Informatika",
+		"semester_id": "ce250b02-b095-11ed-9bd8-0242ac110010",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Victor Programmer",
+		"user_id": "cdefed8a-7a72-11ee-b9df-0242ac120012",
+		"level_id": "5faea229-b095-11ed-9bd8-0242ac110011",
+		"level_name": "B",
+		"level_order": 2,
+		"subject_id": "ce250a77-b095-11ed-9bd8-0242ac110011",
+		"subject_name": "Kybernetická bezpečnost",
+		"semester_id": "ce250b03-b095-11ed-9bd8-0242ac110011",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Walter Developer",
+		"user_id": "defedf9a-8b82-11ee-b9df-0242ac120013",
+		"level_id": "5faea22a-b095-11ed-9bd8-0242ac110012",
+		"level_name": "C",
+		"level_order": 1,
+		"subject_id": "ce250a78-b095-11ed-9bd8-0242ac110012",
+		"subject_name": "Programování",
+		"semester_id": "ce250b04-b095-11ed-9bd8-0242ac110012",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Xavier Learner",
+		"user_id": "effefeab-9c92-11ee-b9df-0242ac120014",
+		"level_id": "5faea22b-b095-11ed-9bd8-0242ac110013",
+		"level_name": "D",
+		"level_order": 3,
+		"subject_id": "ce250a79-b095-11ed-9bd8-0242ac110013",
+		"subject_name": "Informatika",
+		"semester_id": "ce250b05-b095-11ed-9bd8-0242ac110013",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Yara Analyst",
+		"user_id": "fefefa9a-ab22-11ee-b9df-0242ac120015",
+		"level_id": "5faea22c-b095-11ed-9bd8-0242ac110014",
+		"level_name": "E",
+		"level_order": 1,
+		"subject_id": "ce250a7a-b095-11ed-9bd8-0242ac110014",
+		"subject_name": "Programování",
+		"semester_id": "ce250b06-b095-11ed-9bd8-0242ac110014",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Zara Engineer",
+		"user_id": "0a0a0a0a-0000-11ee-b9df-0242ac120016",
+		"level_id": "5faea22d-b095-11ed-9bd8-0242ac110015",
+		"level_name": "F",
+		"level_order": 2,
+		"subject_id": "ce250a7b-b095-11ed-9bd8-0242ac110015",
+		"subject_name": "Kybernetická bezpečnost",
+		"semester_id": "ce250b07-b095-11ed-9bd8-0242ac110015",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Zachary Tester",
+		"user_id": "1b1b1b1b-1111-11ee-b9df-0242ac120017",
+		"level_id": "5faea22e-b095-11ed-9bd8-0242ac110016",
+		"level_name": "A",
+		"level_order": 3,
+		"subject_id": "ce250a7c-b095-11ed-9bd8-0242ac110016",
+		"subject_name": "Informatika",
+		"semester_id": "ce250b08-b095-11ed-9bd8-0242ac110016",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Zoe Developer",
+		"user_id": "2c2c2c2c-2222-11ee-b9df-0242ac120018",
+		"level_id": "5faea22f-b095-11ed-9bd8-0242ac110017",
+		"level_name": "B",
+		"level_order": 1,
+		"subject_id": "ce250a7d-b095-11ed-9bd8-0242ac110017",
+		"subject_name": "Programování",
+		"semester_id": "ce250b09-b095-11ed-9bd8-0242ac110017",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Zander Programmer",
+		"user_id": "3d3d3d3d-3333-11ee-b9df-0242ac120019",
+		"level_id": "5faea230-b095-11ed-9bd8-0242ac110018",
+		"level_name": "C",
+		"level_order": 2,
+		"subject_id": "ce250a7e-b095-11ed-9bd8-0242ac110018",
+		"subject_name": "Informatika",
+		"semester_id": "ce250b0a-b095-11ed-9bd8-0242ac110018",
+		"semester_order": 1
+	},
+	{
+		"user_fullname": "Zelda Security",
+		"user_id": "4e4e4e4e-4444-11ee-b9df-0242ac12001a",
+		"level_id": "5faea231-b095-11ed-9bd8-0242ac110019",
+		"level_name": "A",
+		"level_order": 3,
+		"subject_id": "ce250a7f-b095-11ed-9bd8-0242ac110019",
+		"subject_name": "Kybernetická bezpečnost",
+		"semester_id": "ce250b0b-b095-11ed-9bd8-0242ac110019",
+		"semester_order": 1
+	}
+]
