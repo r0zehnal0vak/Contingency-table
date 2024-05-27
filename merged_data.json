@@ -1,0 +1,170 @@
+{
+    "data": {
+        "groupById": {
+            "id": "2d9dcd22-a4a2-11ed-b9df-0242ac120003",
+            "name": "Uni",
+            "memberships": [
+                {
+                    "user": {
+                        "id": "2d9dc5ca-a4a2-11ed-b9df-0242ac120003",
+                        "fullname": "John Newbie",
+                        "classifications": [
+                            {
+                                "level": {
+                                    "id": "5faea396-b095-11ed-9bd8-0242ac110002",
+                                    "name": "F"
+                                },
+                                "id": "ce250bd0-b095-11ed-9bd8-0242ac110002",
+                                "order": 1,
+                                "semester": {
+                                    "id": "ce250af4-b095-11ed-9bd8-0242ac110002",
+                                    "order": 1,
+                                    "subject": {
+                                        "id": "ce250a68-b095-11ed-9bd8-0242ac110002",
+                                        "name": "Programování"
+                                    }
+                                }
+                            },
+                            {
+                                "level": {
+                                    "id": "5faea21a-b095-11ed-9bd8-0242ac110002",
+                                    "name": "C"
+                                },
+                                "id": "ce250bd1-b095-11ed-9bd8-0242ac110002",
+                                "order": 2,
+                                "semester": {
+                                    "id": "ce250af4-b095-11ed-9bd8-0242ac110002",
+                                    "order": 1,
+                                    "subject": {
+                                        "id": "ce250a68-b095-11ed-9bd8-0242ac110002",
+                                        "name": "Programování"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "user": {
+                        "id": "4f3ac678-b6d8-11ed-b9df-0242ac120003",
+                        "fullname": "Jane Doe",
+                        "classifications": [
+                            {
+                                "level": {
+                                    "id": "6f4a928e-b6d8-11ed-b9df-0242ac110002",
+                                    "name": "A"
+                                },
+                                "id": "9a4d9b20-b6d8-11ed-b9df-0242ac110002",
+                                "order": 1,
+                                "semester": {
+                                    "id": "9a4d9b21-b6d8-11ed-b9df-0242ac110002",
+                                    "order": 2,
+                                    "subject": {
+                                        "id": "9a4d9b22-b6d8-11ed-b9df-0242ac110002",
+                                        "name": "Informatika"
+                                    }
+                                }
+                            },
+                            {
+                                "level": {
+                                    "id": "6f4a93e0-b6d8-11ed-b9df-0242ac110002",
+                                    "name": "B"
+                                },
+                                "id": "9a4d9b23-b6d8-11ed-b9df-0242ac110002",
+                                "order": 2,
+                                "semester": {
+                                    "id": "9a4d9b24-b6d8-11ed-b9df-0242ac110002",
+                                    "order": 2,
+                                    "subject": {
+                                        "id": "9a4d9b25-b6d8-11ed-b9df-0242ac110002",
+                                        "name": "Kyberneticka bezpecnost"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "user": {
+                        "id": "5g4bc789-c7e9-11ed-b9df-0242ac120003",
+                        "fullname": "John Smith",
+                        "classifications": [
+                            {
+                                "level": {
+                                    "id": "7g5b038e-c7e9-11ed-b9df-0242ac110002",
+                                    "name": "B"
+                                },
+                                "id": "8g5b238f-c7e9-11ed-b9df-0242ac110002",
+                                "order": 1,
+                                "semester": {
+                                    "id": "8g5b2390-c7e9-11ed-b9df-0242ac110002",
+                                    "order": 1,
+                                    "subject": {
+                                        "id": "8g5b2391-c7e9-11ed-b9df-0242ac110002",
+                                        "name": "Programovani"
+                                    }
+                                }
+                            },
+                            {
+                                "level": {
+                                    "id": "7g5b048f-c7e9-11ed-b9df-0242ac110002",
+                                    "name": "C"
+                                },
+                                "id": "8g5b2490-c7e9-11ed-b9df-0242ac110002",
+                                "order": 2,
+                                "semester": {
+                                    "id": "8g5b2491-c7e9-11ed-b9df-0242ac110002",
+                                    "order": 1,
+                                    "subject": {
+                                        "id": "8g5b2492-c7e9-11ed-b9df-0242ac110002",
+                                        "name": "Fyzika"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "user": {
+                        "id": "6h5cd89a-d8fa-11ed-b9df-0242ac120003",
+                        "fullname": "Emily Brown",
+                        "classifications": [
+                            {
+                                "level": {
+                                    "id": "8h6c048f-d8fa-11ed-b9df-0242ac110002",
+                                    "name": "C"
+                                },
+                                "id": "9h6c2590-d8fa-11ed-b9df-0242ac110002",
+                                "order": 1,
+                                "semester": {
+                                    "id": "9h6c2591-d8fa-11ed-b9df-0242ac110002",
+                                    "order": 3,
+                                    "subject": {
+                                        "id": "9h6c2592-d8fa-11ed-b9df-0242ac110002",
+                                        "name": "Informatika"
+                                    }
+                                }
+                            },
+                            {
+                                "level": {
+                                    "id": "8h6c0590-d8fa-11ed-b9df-0242ac110002",
+                                    "name": "D"
+                                },
+                                "id": "9h6c2691-d8fa-11ed-b9df-0242ac110002",
+                                "order": 2,
+                                "semester": {
+                                    "id": "9h6c2692-d8fa-11ed-b9df-0242ac110002",
+                                    "order": 3,
+                                    "subject": {
+                                        "id": "9h6c2693-d8fa-11ed-b9df-0242ac110002",
+                                        "name": "Kyberneticka bezpecnost"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
